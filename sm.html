@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>SMART CHOICE</title>
+	<link rel = "stylesheet" type = "text/css" href = "sm.css">
+
+</head>
+<body>
+	<div class = "firstrow">
+	   <header class = "sm-header">
+	       <div class = "div-logo">
+		      <img src = "sm-logo.png">
+                <span class = "logo-text"></span>
+	       </div>
+	       <nav class = "sm-nav">
+                <ul id="menuList">
+		           <li><a href='national.html'>National-Wide Courses</a></li>
+                    <li><a href='Sports.html'>Sports</a></li>
+                    <li><a href='freelance.html'>Freelance</a></li>
+                    <li><a href='start-up.html'>Start-Up</a></li>
+                </ul>
+            </nav>
+            <img src = "menu.png" class = "menu-icon" onclick="togglemenu()">
+        </header>
+    </div>
+    
+    
+
+    <div class="site-content">
+        <div class="image-content" >
+            <h1 class="quote"></h1>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="card-list">
+            <h1 id="product">Courses</h1>
+            <div class="card">
+                <a href="national.html"><img src="17.png"></a>
+                <div>
+                    <h2>National</h2>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <a href="Sports.html"><img src="19.png"></a>
+                <div>
+                    <h2>Sports</h2>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <a href = "freelance.html"><img src="29.png"></a>
+                <div>
+                    <h2>Freelance</h2>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <a href="start-up.html"><img src="26.png"></a>
+                <div>
+                    <h2>Start-Up</h2>
+                    
+                </div>
+            </div>
+ 
+
+        </div>
+
+        
+
+    </div>
+    
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "130px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+
+</body>
+
+</html>
